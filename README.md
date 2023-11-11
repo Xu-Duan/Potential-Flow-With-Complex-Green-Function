@@ -11,13 +11,15 @@ The program exploits a state-of-the-art method to conduct hydrodynamics analysis
 5. sigle floating body
 6. no advance (the floating body oscillating around its mean position)
 
-The process of hydrodynamics analysis entails the calculation of three-dimensional infinite water depth free-surface Green function induced by a pulsating source, which is the most complicated part of the procedure. Many scholars proposed different methods to calculate Green function and were devoted to enhance the accuracy, stability and speed. The method of this program is based on the work of Newman. References are listed below.
+The process of hydrodynamics analysis entails the calculation of three-dimensional infinite water depth free-surface Green function induced by a pulsating source, which is the most complicated part of the procedure. Many scholars proposed different methods to calculate Green function and were devoted to enhance the accuracy, stability and speed. The method of this program is based on the work of Delhommeau and his open source software NEMOH. References are listed below.
 
 ## References
 1. Xie et al, Comparison of existing methods for the calculation of the infinite water depth free-surface Green function for the wave-structure interaction problem, Applied Ocean Research 81 (2018) 150–163.
-2. J. N. Newman, The theory of ship motions, Advances in Applied Mechanics 18 (1978) 221-283.
-3. J. N. Newman, Approximations for the Bessel and Struve functions, Mathematics of Computation 43 (1984) 551-556.
-4. J. N. Newman, Algorithms for free-surface Green function, Journal of Engineering Mathematics 19 (1985) 57-67.
+2. Aurélien Babarit and Gérard Delhommeau. Theoretical and numerical aspects of the open source BEM solver NEMOH. In Proceedings of the 11th European Wave and Tidal Energy Conference. Sept 2015.
+3. Ruddy Kurnia and Guillaume Ducrozet. NEMOH: Open-source boundary element solver for computation of first- and second-order hydrodynamics loads in frequency domain. Computer Physics Communications, 292:108885, 2023. doi:10.1016/j.cpc.2023.108885.
+4. J. N. Newman, The theory of ship motions, Advances in Applied Mechanics 18 (1978) 221-283.
+5. J. N. Newman, Approximations for the Bessel and Struve functions, Mathematics of Computation 43 (1984) 551-556.
+6. J. N. Newman, Algorithms for free-surface Green function, Journal of Engineering Mathematics 19 (1985) 57-67.
 
 ## How to use
 make sure control tool Make and a fortran compiler (such as gfortran) are already installed. Then run the following command to compile
